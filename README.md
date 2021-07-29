@@ -13,10 +13,17 @@ It accepts different types of characters that can be printed printf allows speci
 HOW TO CREATE OUR PRINTF FUNCTION
 
 - for the creation of our printf function we use our #include library "holberton.h" which contains the definitions of our functions that we will use for our printf function.
-- We will create functions with which our printf will work
--printf_char.c
--printf_string.c
--printf_int.c
+
+-We create functions that our printf will work 
+--printf_char.c
+--printf_string.c
+--printf_int.c
+
+-we create some files
+--holberton.h: this file contains our prototype and functions
+--printf.c: this file contains our prototype and functions
+--match.c: file must contain the function that selects the correct function to perform the operation requested by the user. 
+
 - We will use Prototype: int _printf(const char *format, ...); which is an enclosed library function.c which sends an output in stdout format.
 
 
