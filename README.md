@@ -7,16 +7,6 @@ It accepts different types of characters that can be printed printf allows speci
 | ------ | ------ |
 |%i|entero en base 10 con signo (int)
 |%d|printf("El numero entero en base 10 es: %d", -10);|
-|%u|entero en base 10 sin signo (int)|
-|%o|entero en base 8 sin signo (int)|
-|%x|entero en base 16, letras en minúscula (int)|
-|%X|entero en base 16, letras en mayúscula (int)|
-|%f|Coma flotante decimal de precisión simple (float)|
-|%lf|Coma flotante decimal de precisión doble (double)|
-|%ld|Entero de 32 bits (long)|
-|%lu|Entero sin signo de 32 bits (unsigned long)|
-|%e|La notación científica (mantisa / exponente), minúsculas (decimal precisión simple o doble)|
-|%E|La notación científica (mantisa / exponente), mayúsculas (decimal precisión simple o doble)|
 |%c|caracter (char)|
 |%s|cadena de caracteres (string)
 
