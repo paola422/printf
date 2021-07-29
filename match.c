@@ -1,12 +1,14 @@
 #include "holberton.h"
-/**
-* *match - function to perform the operations
-* @oper: operator
-* @*match() - fuction given the list of functions
-* Return: pointer to the function
 
+/**
+* *match - fuction given the list of functions
+* @oper: operator
+* @*match() - fuction
+* Return: pointer to the function
+*/
 int (*match(const char oper))()
 {
+
 	format_t operations[] = {
 		{"c", printf_char},
 		{"s", printf_string},
@@ -14,5 +16,14 @@ int (*match(const char oper))()
 		{"i", printf_integer},
 		{NULL, NULL},
 	};
-	return (NULL);
+
+	unsigned int i = 0;
+
+	while (operations[i].oper[0] == oper)
+	{
+		return (operations[i].f);
+	}
+	i++;
 }
+	return (NULL);
+
