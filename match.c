@@ -24,6 +24,6 @@ int (*match(const char oper))()
 		return (operations[i].f);
 	}
 	i++;
-}
-	return (NULL);
 
+	return (NULL);
+}
