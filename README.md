@@ -19,10 +19,11 @@ HOW TO CREATE OUR PRINTF FUNCTION
 --printf_string.c
 --printf_int.c
 
--we create some files
---holberton.h: this file contains our prototype and functions
---printf.c: this file contains our prototype and functions
---match.c: file must contain the function that selects the correct function to perform the operation requested by the user. 
+# WE CREATE SOME FILES
+
+-holberton.h: this file contains our prototype and functions
+-printf.c: this file contains our prototype and functions
+-match.c: file must contain the function that selects the correct function to perform the operation requested by the user. 
 
 - We will use Prototype: int _printf(const char *format, ...); which is an enclosed library function.c which sends an output in stdout format.
 
