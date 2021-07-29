@@ -6,8 +6,9 @@
  */
 int printf_char(va_list c)
 {
-  char character;
-  character = va_arg(c, int);
-  _putchar(character);
-  return(1);
+	char character;
+
+	character = va_arg(c, int);
+		_putchar(character);
+return (1);
 }

@@ -1,9 +1,9 @@
-#ifdef PRINTF
-#define PRINTF
+#ifndef _PRINTF
+#define _PRINTF
 
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdio.h>
 
-int _printf char(va_list c);
+int printf_char(va_list c);
 #endif

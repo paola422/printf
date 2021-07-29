@@ -1,0 +1,11 @@
+#include "holberton.h"
+/**
+* _printf - Write a function that produces output according
+* @*format: pointer of format
+* Return: number of characters printed
+*/
+
+int _printf(const char *format, ...)
+{
+return(0);
+}
