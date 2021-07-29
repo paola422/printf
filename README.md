@@ -19,7 +19,7 @@ HOW TO CREATE OUR PRINTF FUNCTION
 --printf_string.c
 --printf_int.c
 
-# WE CREATE SOME FILES
+WE CREATE SOME FILES
 
 -holberton.h: this file contains our prototype and functions
 -printf.c: this file contains our prototype and functions
