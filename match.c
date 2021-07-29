@@ -1,9 +1,10 @@
+
 #include "holberton.h"
 
 /**
 * *match - fuction given the list of functions
 * @oper: operator
-* @*match() - fuction
+* @*match():fuction
 * Return: pointer to the function
 */
 int (*match(const char oper))()
@@ -21,9 +22,11 @@ int (*match(const char oper))()
 
 	while (operations[i].oper[0] == oper)
 	{
+		if (operations[i].oper[0] == oper)
+		{
 		return (operations[i].f);
+		}
+		i++;
 	}
-	i++;
-
 	return (NULL);
 }
