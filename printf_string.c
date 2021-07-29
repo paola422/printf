@@ -5,18 +5,19 @@
  * Return:int
  */
 
-int_printstring(va_list s)
+int printf_string(va_list s)
 {
 	char *character;
 	unsigned int i = 0;
 
-	if (character == NULL)
-		character = NULL;
+	character = va_arg(s, char *);
 
+	if (character == NULL)
+		character = "(NULL)";
 	while (character[i])
 	{
-		_putchar(character[i])
+		_putchar(character[i]);
 		i++;
 	}
-return (i);
+	return (i);
 }
