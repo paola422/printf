@@ -36,3 +36,11 @@ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 ```sh
 ./a.out
 ```
+
+## Authors
+
+Sandra Lorena Hoyos
+twitter @Sandra74398130
+
+Paola Andrea Canchala
+twitter @canchala_paola
