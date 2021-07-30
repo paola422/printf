@@ -20,7 +20,7 @@ int (*match(const char oper))()
 
 	unsigned int i = 0;
 
-	while (operations[i].oper[0] == oper)
+	while (operations[i].oper != NULL)
 	{
 		if (operations[i].oper[0] == oper)
 		{
